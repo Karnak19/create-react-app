@@ -42,7 +42,8 @@
     "eslint-plugin-react-hooks": "^2.5.1",
     "husky": "^4.2.5",
     "lint-staged": "^10.2.2",
-    "prettier": "^2.0.5"
+    "prettier": "^2.0.5",
+    "pretty-quick": "^2.0.1"
   },
   "husky": {
     "hooks": {
@@ -52,8 +53,7 @@
   "lint-staged": {
     "src/**/*.{js,jsx}": [
       "./node_modules/.bin/eslint --max-warnings=0",
-      "pretty-quick --staged",
-      "git add"
+      "pretty-quick --staged"
     ]
   }
 }
