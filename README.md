@@ -2,8 +2,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Getting started
 
-`npx degit Karnak19/react-prettier-eslint-action my-app`  
-This command will install the template due to [degit](https://github.com/Rich-Harris/degit) package.
+```bash
+$ npx degit Karnak19/react-prettier-eslint-action my-app
+$ cd my-app && git init && npm install
+$ npm start
+```
 
 ## Why this template over create-react-app ?
 
